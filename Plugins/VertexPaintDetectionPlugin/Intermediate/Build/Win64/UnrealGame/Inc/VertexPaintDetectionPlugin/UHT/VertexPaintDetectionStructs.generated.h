@@ -1,0 +1,565 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "VertexPaintDetectionStructs.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef VERTEXPAINTDETECTIONPLUGIN_VertexPaintDetectionStructs_generated_h
+#error "VertexPaintDetectionStructs.generated.h already included, missing '#pragma once' in VertexPaintDetectionStructs.h"
+#endif
+#define VERTEXPAINTDETECTIONPLUGIN_VertexPaintDetectionStructs_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_128_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintMultiThreadSettingsStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintMultiThreadSettingsStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_145_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectColorSnippetReferenceDataStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectColorSnippetReferenceDataStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_159_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectSerializedColorsPerLODStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectSerializedColorsPerLODStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_176_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectMeshDataPerLODStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectMeshDataPerLODStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_202_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectColorSnippetDataStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectColorSnippetDataStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_223_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectBoneColorsStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectBoneColorsStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_236_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectMeshDataStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_281_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectClosestVertexPositionStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectClosestVertexPositionStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_298_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectClosestVertexNormalStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectClosestVertexNormalStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_316_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectClosestVertexGeneralInfoStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectClosestVertexGeneralInfoStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_348_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_AtDefault_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectPhysicsSurfaceDataStruct_AtDefault>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_372_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_AtRed_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectPhysicsSurfaceDataStruct_AtRed>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_393_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_AtGreen_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectPhysicsSurfaceDataStruct_AtGreen>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_413_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_AtBlue_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectPhysicsSurfaceDataStruct_AtBlue>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_433_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_AtAlpha_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectPhysicsSurfaceDataStruct_AtAlpha>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_453_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectMostDominantPhysicsSurfaceInfo_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectMostDominantPhysicsSurfaceInfo>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_476_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectPhysicsSurfaceDataStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectPhysicsSurfaceDataStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_522_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectAndPaintFundementalsStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectAndPaintFundementalsStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_550_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectIncludeAmountOfPaintedColorsOfEachChannel_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectIncludeAmountOfPaintedColorsOfEachChannel>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_568_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectEventSettings_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectEventSettings>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_607_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectFundementalStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectFundementalStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_630_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectEstimatedColorAtHitLocationStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_647_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectGetAverageColorStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectGetAverageColorStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_664_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectInfoStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct(); \
+	typedef FVertexDetectFundementalStruct Super;
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectInfoStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_686_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectGetColorsOnlyStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct(); \
+	typedef FVertexDetectFundementalStruct Super;
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectGetColorsOnlyStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_698_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectClosestVertexDataResultStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_718_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectEstimatedColorAtHitLocationResultStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_741_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintColorToApplyToVertexChannelsDependingOnPhysicsMaterial_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintColorToApplyToVertexChannelsDependingOnPhysicsMaterial>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_758_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintPhysicsSurfaceBlendingSettings_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintPhysicsSurfaceBlendingSettings>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_780_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintMaterialDataAssetStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintMaterialDataAssetStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_815_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintingLimitStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintingLimitStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_844_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectClothPhysicsDampingSettingsStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectClothPhysicsDampingSettingsStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_858_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectClothPhysicsGravitySettingsStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectClothPhysicsGravitySettingsStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_878_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectClothPhysicsWindSettingsStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectClothPhysicsWindSettingsStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_901_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectClothPhysicsAnimDriveSettingsStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectClothPhysicsAnimDriveSettingsStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_918_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectClothPhysicsCollisionSettingsStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectClothPhysicsCollisionSettingsStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_941_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectClothPhysicsLongRangeAttachmentSettingsStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_958_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectClothPhysicsMaterialSettingsStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectClothPhysicsMaterialSettingsStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_978_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectClothPhysicsVelocityScaleSettingsStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectClothPhysicsVelocityScaleSettingsStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_998_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectClothPhysicsSettingsAtVertexColorStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectClothPhysicsSettingsAtVertexColorStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1100_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectClothSettingsStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectClothSettingsStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1123_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectChaosClothPhysicsSettings_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectChaosClothPhysicsSettings>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1198_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsBoneStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectPaintColorCondition_IsBoneStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1212_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_IsWithinColorRangeStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectPaintColorCondition_IsWithinColorRangeStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1232_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectPaintColorCondition_HasLineOfSightStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectPaintColorCondition_HasLineOfSightStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1261_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectPaintColorConditionStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectPaintColorConditionStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1287_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectRGBAStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectRGBAStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1325_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintLimitPaintToSpecifiedNormal_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintLimitPaintToSpecifiedNormal>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1345_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintOverridePaintUpToLOD_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintOverridePaintUpToLOD>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1362_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct(); \
+	typedef FVertexDetectFundementalStruct Super;
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1379_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintColorSettingStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct(); \
+	typedef FVertexPaintStruct Super;
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintColorSettingStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1399_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectPaintAtLocationAreaSettings_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectPaintAtLocationAreaSettings>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1426_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectWhenPaintingSettings_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectWhenPaintingSettings>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1452_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct(); \
+	typedef FVertexPaintColorSettingStruct Super;
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintAtLocationStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1475_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPainthWithinArea_ComponentToCheckIfIsWithinInfo_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPainthWithinArea_ComponentToCheckIfIsWithinInfo>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1525_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct(); \
+	typedef FVertexPaintColorSettingStruct Super;
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPainthWithinAreaStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1551_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectPaintOnEntireMeshRandomizeSettingsStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectPaintOnEntireMeshRandomizeSettingsStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1571_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintOnEntireMeshStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct(); \
+	typedef FVertexPaintColorSettingStruct Super;
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintOnEntireMeshStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1585_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct(); \
+	typedef FVertexPaintStruct Super;
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintColorSnippetStruct>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1610_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintSetMeshComponentVertexColors_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct(); \
+	typedef FVertexPaintStruct Super;
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintSetMeshComponentVertexColors>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1627_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintSetMeshComponentVertexColorsUsingSerializedString_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct(); \
+	typedef FVertexPaintStruct Super;
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintSetMeshComponentVertexColorsUsingSerializedString>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1644_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectAvarageColorInAreaInfo_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectAvarageColorInAreaInfo>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1662_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectAmountOfPaintedColorsOfEachChannel_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectAmountOfPaintedColorsOfEachChannel>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1715_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectVertexColorsOnEachBone_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectVertexColorsOnEachBone>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1732_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectTaskResultInfo>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1752_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexDetectAdditionalDataToPassThrough>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_1904_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FCalculateColorsInfo_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FCalculateColorsInfo>();
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h_2008_GENERATED_BODY \
+	friend struct Z_Construct_UScriptStruct_FVertexPaintCalculateColorsQueueArrayStruct_Statics; \
+	VERTEXPAINTDETECTIONPLUGIN_API static class UScriptStruct* StaticStruct();
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* StaticStruct<struct FVertexPaintCalculateColorsQueueArrayStruct>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionStructs_h
+
+
+#define FOREACH_ENUM_ENUM_PAINTENTIREMESHATRANDOMVERTICES_PROPOGATETOLODSMETHOD(op) \
+	op(Enum_PaintEntireMeshAtRandomVertices_PropogateToLODsMethod::ModifiedEngineMethod) \
+	op(Enum_PaintEntireMeshAtRandomVertices_PropogateToLODsMethod::DontPropogateLOD0ToAllLODs) 
+
+enum class Enum_PaintEntireMeshAtRandomVertices_PropogateToLODsMethod : uint8;
+template<> struct TIsUEnumClass<Enum_PaintEntireMeshAtRandomVertices_PropogateToLODsMethod> { enum { Value = true }; };
+template<> VERTEXPAINTDETECTIONPLUGIN_API UEnum* StaticEnum<Enum_PaintEntireMeshAtRandomVertices_PropogateToLODsMethod>();
+
+#define FOREACH_ENUM_ENUM_SURFACEATCHANNEL(op) \
+	op(Enum_SurfaceAtChannel::Default) \
+	op(Enum_SurfaceAtChannel::RedChannel) \
+	op(Enum_SurfaceAtChannel::GreenChannel) \
+	op(Enum_SurfaceAtChannel::BlueChannel) \
+	op(Enum_SurfaceAtChannel::AlphaChannel) 
+
+enum class Enum_SurfaceAtChannel : uint8;
+template<> struct TIsUEnumClass<Enum_SurfaceAtChannel> { enum { Value = true }; };
+template<> VERTEXPAINTDETECTIONPLUGIN_API UEnum* StaticEnum<Enum_SurfaceAtChannel>();
+
+#define FOREACH_ENUM_ENUM_PAINTWITHINAREASHAPE(op) \
+	op(Enum_PaintWithinAreaShape::isSquareOrRectangleShape) \
+	op(Enum_PaintWithinAreaShape::isSphereShape) \
+	op(Enum_PaintWithinAreaShape::isComplexShape) 
+
+enum class Enum_PaintWithinAreaShape : uint8;
+template<> struct TIsUEnumClass<Enum_PaintWithinAreaShape> { enum { Value = true }; };
+template<> VERTEXPAINTDETECTIONPLUGIN_API UEnum* StaticEnum<Enum_PaintWithinAreaShape>();
+
+#define FOREACH_ENUM_ETHREADPRIORITYWRAPPER(op) \
+	op(EThreadPriorityWrapper::TPri_Normal) \
+	op(EThreadPriorityWrapper::TPri_AboveNormal) \
+	op(EThreadPriorityWrapper::TPri_BelowNormal) \
+	op(EThreadPriorityWrapper::TPri_Highest) \
+	op(EThreadPriorityWrapper::TPri_Lowest) \
+	op(EThreadPriorityWrapper::TPri_SlightlyBelowNormal) \
+	op(EThreadPriorityWrapper::TPri_TimeCritical) \
+	op(EThreadPriorityWrapper::TPri_Num) 
+
+enum class EThreadPriorityWrapper : uint8;
+template<> struct TIsUEnumClass<EThreadPriorityWrapper> { enum { Value = true }; };
+template<> VERTEXPAINTDETECTIONPLUGIN_API UEnum* StaticEnum<EThreadPriorityWrapper>();
+
+#define FOREACH_ENUM_EAPPLYVERTEXCOLORSETTING(op) \
+	op(EApplyVertexColorSetting::EAddVertexColor) \
+	op(EApplyVertexColorSetting::ESetVertexColor) 
+
+enum class EApplyVertexColorSetting : uint8;
+template<> struct TIsUEnumClass<EApplyVertexColorSetting> { enum { Value = true }; };
+template<> VERTEXPAINTDETECTIONPLUGIN_API UEnum* StaticEnum<EApplyVertexColorSetting>();
+
+#define FOREACH_ENUM_EVERTEXPAINTFALLOFFTYPE(op) \
+	op(EVertexPaintFallOffType::FromComponentCenter) \
+	op(EVertexPaintFallOffType::FromComponentZHeight) 
+
+enum class EVertexPaintFallOffType : uint8;
+template<> struct TIsUEnumClass<EVertexPaintFallOffType> { enum { Value = true }; };
+template<> VERTEXPAINTDETECTIONPLUGIN_API UEnum* StaticEnum<EVertexPaintFallOffType>();
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

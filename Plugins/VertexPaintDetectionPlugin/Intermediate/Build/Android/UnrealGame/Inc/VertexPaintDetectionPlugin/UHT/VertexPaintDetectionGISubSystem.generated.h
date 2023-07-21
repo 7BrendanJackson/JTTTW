@@ -1,0 +1,98 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "VertexPaintDetectionGISubSystem.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef VERTEXPAINTDETECTIONPLUGIN_VertexPaintDetectionGISubSystem_generated_h
+#error "VertexPaintDetectionGISubSystem.generated.h already included, missing '#pragma once' in VertexPaintDetectionGISubSystem.h"
+#endif
+#define VERTEXPAINTDETECTIONPLUGIN_VertexPaintDetectionGISubSystem_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_RPC_WRAPPERS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVertexPaintDetectionGISubSystem(); \
+	friend struct Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics; \
+public: \
+	DECLARE_CLASS(UVertexPaintDetectionGISubSystem, UGameInstanceSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VertexPaintDetectionPlugin"), NO_API) \
+	DECLARE_SERIALIZER(UVertexPaintDetectionGISubSystem)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_INCLASS \
+private: \
+	static void StaticRegisterNativesUVertexPaintDetectionGISubSystem(); \
+	friend struct Z_Construct_UClass_UVertexPaintDetectionGISubSystem_Statics; \
+public: \
+	DECLARE_CLASS(UVertexPaintDetectionGISubSystem, UGameInstanceSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VertexPaintDetectionPlugin"), NO_API) \
+	DECLARE_SERIALIZER(UVertexPaintDetectionGISubSystem)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVertexPaintDetectionGISubSystem(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVertexPaintDetectionGISubSystem) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVertexPaintDetectionGISubSystem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVertexPaintDetectionGISubSystem); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVertexPaintDetectionGISubSystem(UVertexPaintDetectionGISubSystem&&); \
+	NO_API UVertexPaintDetectionGISubSystem(const UVertexPaintDetectionGISubSystem&); \
+public: \
+	NO_API virtual ~UVertexPaintDetectionGISubSystem();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVertexPaintDetectionGISubSystem() { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVertexPaintDetectionGISubSystem(UVertexPaintDetectionGISubSystem&&); \
+	NO_API UVertexPaintDetectionGISubSystem(const UVertexPaintDetectionGISubSystem&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVertexPaintDetectionGISubSystem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVertexPaintDetectionGISubSystem); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UVertexPaintDetectionGISubSystem) \
+	NO_API virtual ~UVertexPaintDetectionGISubSystem();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_19_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_RPC_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_INCLASS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h_22_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UClass* StaticClass<class UVertexPaintDetectionGISubSystem>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionGISubSystem_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

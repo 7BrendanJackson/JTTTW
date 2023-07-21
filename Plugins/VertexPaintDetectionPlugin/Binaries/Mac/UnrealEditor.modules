@@ -1,0 +1,11 @@
+{
+	"BuildId": "23058290",
+	"Modules": 
+	{
+		"RapidJsonModule": "UnrealEditor-RapidJsonModule.dylib",
+		"VertexPaintDetectionPlugin": "UnrealEditor-VertexPaintDetectionPlugin.dylib",
+		"VertexPaintDetectionPlugin_Editor": "UnrealEditor-VertexPaintDetectionPlugin_Editor.dylib",
+		"VertexPaintDetection_Uncooked": "UnrealEditor-VertexPaintDetection_Uncooked.dylib",
+		"VertexPaint_UEToolbarButton": "UnrealEditor-VertexPaint_UEToolbarButton.dylib"
+	}
+}

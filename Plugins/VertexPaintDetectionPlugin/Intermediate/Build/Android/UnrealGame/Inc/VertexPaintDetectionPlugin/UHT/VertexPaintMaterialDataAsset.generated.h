@@ -1,0 +1,115 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "VertexPaintMaterialDataAsset.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UMaterialInterface;
+class UMaterialInterface; struct FVertexPaintMaterialDataAssetStruct;
+struct FVertexPaintMaterialDataAssetStruct;
+#ifdef VERTEXPAINTDETECTIONPLUGIN_VertexPaintMaterialDataAsset_generated_h
+#error "VertexPaintMaterialDataAsset.generated.h already included, missing '#pragma once' in VertexPaintMaterialDataAsset.h"
+#endif
+#define VERTEXPAINTDETECTIONPLUGIN_VertexPaintMaterialDataAsset_generated_h
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_SPARSE_DATA
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetVertexPaintMaterialInterface); \
+	DECLARE_FUNCTION(execAddToVertexPaintMaterialInterface); \
+	DECLARE_FUNCTION(execRemoveFromVertexPaintMaterialInterface); \
+	DECLARE_FUNCTION(execIsMaterialAddedToPaintOnMaterialDataAsset);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetVertexPaintMaterialInterface); \
+	DECLARE_FUNCTION(execAddToVertexPaintMaterialInterface); \
+	DECLARE_FUNCTION(execRemoveFromVertexPaintMaterialInterface); \
+	DECLARE_FUNCTION(execIsMaterialAddedToPaintOnMaterialDataAsset);
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_ACCESSORS
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVertexPaintMaterialDataAsset(); \
+	friend struct Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics; \
+public: \
+	DECLARE_CLASS(UVertexPaintMaterialDataAsset, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VertexPaintDetectionPlugin"), NO_API) \
+	DECLARE_SERIALIZER(UVertexPaintMaterialDataAsset)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_INCLASS \
+private: \
+	static void StaticRegisterNativesUVertexPaintMaterialDataAsset(); \
+	friend struct Z_Construct_UClass_UVertexPaintMaterialDataAsset_Statics; \
+public: \
+	DECLARE_CLASS(UVertexPaintMaterialDataAsset, UDataAsset, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VertexPaintDetectionPlugin"), NO_API) \
+	DECLARE_SERIALIZER(UVertexPaintMaterialDataAsset)
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVertexPaintMaterialDataAsset(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVertexPaintMaterialDataAsset) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVertexPaintMaterialDataAsset); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVertexPaintMaterialDataAsset); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVertexPaintMaterialDataAsset(UVertexPaintMaterialDataAsset&&); \
+	NO_API UVertexPaintMaterialDataAsset(const UVertexPaintMaterialDataAsset&); \
+public: \
+	NO_API virtual ~UVertexPaintMaterialDataAsset();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVertexPaintMaterialDataAsset(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVertexPaintMaterialDataAsset(UVertexPaintMaterialDataAsset&&); \
+	NO_API UVertexPaintMaterialDataAsset(const UVertexPaintMaterialDataAsset&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVertexPaintMaterialDataAsset); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVertexPaintMaterialDataAsset); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVertexPaintMaterialDataAsset) \
+	NO_API virtual ~UVertexPaintMaterialDataAsset();
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_16_PROLOG
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_RPC_WRAPPERS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_INCLASS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_SPARSE_DATA \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_ACCESSORS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_INCLASS_NO_PURE_DECLS \
+	FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UClass* StaticClass<class UVertexPaintMaterialDataAsset>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintMaterialDataAsset_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

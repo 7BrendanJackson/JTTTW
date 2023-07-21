@@ -1,0 +1,253 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "VertexPaintFunctionLibrary.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+ 
+ class UVertexPaintColorSnippetDataAsset;
+class UChaosWheeledVehicleMovementComponent;
+class UClothingAssetBase;
+class UMaterialInterface;
+class UObject;
+class UPhysicalMaterial;
+class UPrimitiveComponent;
+class UPrimitiveComponent; 
+class USkeletalMesh;
+class USkeletalMeshComponent;
+class UStaticMesh;
+class UStaticMeshComponent;
+class UVertexPaintColorSnippetRefs;
+class UVertexPaintDetectionComponent;
+class UVertexPaintMaterialDataAsset;
+class UVertexPaintOptimizationDataAsset;
+class UWorld;
+enum class Enum_SurfaceAtChannel : uint8;
+struct FColor;
+struct FGameplayTag;
+struct FGameplayTag; class UVertexPaintColorSnippetDataAsset;
+struct FHitResult;
+struct FLinearColor;
+struct FSoftObjectPath;
+struct FVertexDetectAdditionalDataToPassThrough;
+struct FVertexDetectAmountOfPaintedColorsOfEachChannel;
+struct FVertexDetectChaosClothPhysicsSettings;
+struct FVertexDetectGetColorsOnlyStruct;
+struct FVertexDetectInfoStruct;
+struct FVertexDetectMeshDataStruct;
+struct FVertexPaintAtLocationStruct;
+struct FVertexPaintColorSnippetStruct;
+struct FVertexPainthWithinArea_ComponentToCheckIfIsWithinInfo;
+struct FVertexPainthWithinAreaStruct;
+struct FVertexPaintOnEntireMeshStruct;
+struct FVertexPaintSetMeshComponentVertexColors;
+struct FVertexPaintSetMeshComponentVertexColorsUsingSerializedString;
+#ifdef VERTEXPAINTDETECTIONPLUGIN_VertexPaintFunctionLibrary_generated_h
+#error "VertexPaintFunctionLibrary.generated.h already included, missing '#pragma once' in VertexPaintFunctionLibrary.h"
+#endif
+#define VERTEXPAINTDETECTIONPLUGIN_VertexPaintFunctionLibrary_generated_h
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_SPARSE_DATA
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execUpdateChaosClothPhysicsWithExistingColors); \
+	DECLARE_FUNCTION(execSetChaosClothPhysics); \
+	DECLARE_FUNCTION(execGetClothAssets); \
+	DECLARE_FUNCTION(execSetChaosWheeledVehicleFrictionMultiplier_Wrapper); \
+	DECLARE_FUNCTION(execGetPhysicalMaterialUsingPhysicsSurface_Wrapper); \
+	DECLARE_FUNCTION(execObjectTypeToCollisionChannel); \
+	DECLARE_FUNCTION(execCollisionChannelToObjectType); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_GetStaticMeshVertexColorsAtLOD); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_GetSkeletalMeshVertexColorsAtLOD); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_GetSkeletalMesh); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_SortAssetsNamesAlphabetically); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_SortStringArrayAlphabetically); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_SetSkeletalMeshAndReleaseResources); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_SetStaticMeshAndReleaseOverrideVertexColors); \
+	DECLARE_FUNCTION(execGetAmountOfPaintedColorsForEachChannel); \
+	DECLARE_FUNCTION(execDrawPrimitiveComponentBoundsBox); \
+	DECLARE_FUNCTION(execGetAllPhysicsSurfaces); \
+	DECLARE_FUNCTION(execGetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper); \
+	DECLARE_FUNCTION(execGetTheMostDominantPhysicsSurface_Wrapper); \
+	DECLARE_FUNCTION(execGetColorsToApplyFromPhysicsMaterial_Wrapper); \
+	DECLARE_FUNCTION(execGetMeshComponentVertexColors_Wrapper); \
+	DECLARE_FUNCTION(execGetMeshColorSnippetsTagsInTagCategory_Wrapper); \
+	DECLARE_FUNCTION(execGetAllMeshColorSnippetsTagsUnderTagCategory_Wrapper); \
+	DECLARE_FUNCTION(execGetAllMeshColorSnippetsAsTags_Wrapper); \
+	DECLARE_FUNCTION(execGetAllMeshColorSnippetsAsString_Wrapper); \
+	DECLARE_FUNCTION(execGetCalculateColorsDetectionTasksAmount_Wrapper); \
+	DECLARE_FUNCTION(execGetCalculateColorsPaintTasksAmount_Wrapper); \
+	DECLARE_FUNCTION(execClearMeshPaintedSinceSessionStarted_Wrapper); \
+	DECLARE_FUNCTION(execGetMeshPaintedSinceSessionStarted_Wrapper); \
+	DECLARE_FUNCTION(execGetAmountOfLODsToPaintOn); \
+	DECLARE_FUNCTION(execGetVertexPaintMaterialDataAsset); \
+	DECLARE_FUNCTION(execGetOptimizationDataAsset); \
+	DECLARE_FUNCTION(execGetColorSnippetReferenceDataAsset); \
+	DECLARE_FUNCTION(execGetAmountOfTasksStartedByComponent); \
+	DECLARE_FUNCTION(execMultisphereTraceForPaintAtLocation_Wrapper); \
+	DECLARE_FUNCTION(execIsWorldValid); \
+	DECLARE_FUNCTION(execSetMeshComponentVertexColorsUsingSerializedString_Wrapper); \
+	DECLARE_FUNCTION(execSetMeshComponentVertexColors_Wrapper); \
+	DECLARE_FUNCTION(execPaintColorSnippetOnMesh_Wrappers); \
+	DECLARE_FUNCTION(execPaintOnEntireMesh_Wrapper); \
+	DECLARE_FUNCTION(execPaintOnMeshWithinArea_Wrapper); \
+	DECLARE_FUNCTION(execPaintOnMeshAtLocation_Wrapper); \
+	DECLARE_FUNCTION(execGetAllVertexColorsOnly_Wrapper); \
+	DECLARE_FUNCTION(execGetClosestVertexDataOnMesh_Wrapper);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execUpdateChaosClothPhysicsWithExistingColors); \
+	DECLARE_FUNCTION(execSetChaosClothPhysics); \
+	DECLARE_FUNCTION(execGetClothAssets); \
+	DECLARE_FUNCTION(execSetChaosWheeledVehicleFrictionMultiplier_Wrapper); \
+	DECLARE_FUNCTION(execGetPhysicalMaterialUsingPhysicsSurface_Wrapper); \
+	DECLARE_FUNCTION(execObjectTypeToCollisionChannel); \
+	DECLARE_FUNCTION(execCollisionChannelToObjectType); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_GetStaticMeshVertexColorsAtLOD); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_GetSkeletalMeshVertexColorsAtLOD); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_GetSkeletalMesh); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_SortAssetsNamesAlphabetically); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_SortStringArrayAlphabetically); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_SetSkeletalMeshAndReleaseResources); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_SetStaticMeshAndReleaseOverrideVertexColors); \
+	DECLARE_FUNCTION(execGetAmountOfPaintedColorsForEachChannel); \
+	DECLARE_FUNCTION(execDrawPrimitiveComponentBoundsBox); \
+	DECLARE_FUNCTION(execGetAllPhysicsSurfaces); \
+	DECLARE_FUNCTION(execGetAllVertexColorChannelsPhysicsSurfaceIsRegisteredTo_Wrapper); \
+	DECLARE_FUNCTION(execGetTheMostDominantPhysicsSurface_Wrapper); \
+	DECLARE_FUNCTION(execGetColorsToApplyFromPhysicsMaterial_Wrapper); \
+	DECLARE_FUNCTION(execGetMeshComponentVertexColors_Wrapper); \
+	DECLARE_FUNCTION(execGetMeshColorSnippetsTagsInTagCategory_Wrapper); \
+	DECLARE_FUNCTION(execGetAllMeshColorSnippetsTagsUnderTagCategory_Wrapper); \
+	DECLARE_FUNCTION(execGetAllMeshColorSnippetsAsTags_Wrapper); \
+	DECLARE_FUNCTION(execGetAllMeshColorSnippetsAsString_Wrapper); \
+	DECLARE_FUNCTION(execGetCalculateColorsDetectionTasksAmount_Wrapper); \
+	DECLARE_FUNCTION(execGetCalculateColorsPaintTasksAmount_Wrapper); \
+	DECLARE_FUNCTION(execClearMeshPaintedSinceSessionStarted_Wrapper); \
+	DECLARE_FUNCTION(execGetMeshPaintedSinceSessionStarted_Wrapper); \
+	DECLARE_FUNCTION(execGetAmountOfLODsToPaintOn); \
+	DECLARE_FUNCTION(execGetVertexPaintMaterialDataAsset); \
+	DECLARE_FUNCTION(execGetOptimizationDataAsset); \
+	DECLARE_FUNCTION(execGetColorSnippetReferenceDataAsset); \
+	DECLARE_FUNCTION(execGetAmountOfTasksStartedByComponent); \
+	DECLARE_FUNCTION(execMultisphereTraceForPaintAtLocation_Wrapper); \
+	DECLARE_FUNCTION(execIsWorldValid); \
+	DECLARE_FUNCTION(execSetMeshComponentVertexColorsUsingSerializedString_Wrapper); \
+	DECLARE_FUNCTION(execSetMeshComponentVertexColors_Wrapper); \
+	DECLARE_FUNCTION(execPaintColorSnippetOnMesh_Wrappers); \
+	DECLARE_FUNCTION(execPaintOnEntireMesh_Wrapper); \
+	DECLARE_FUNCTION(execPaintOnMeshWithinArea_Wrapper); \
+	DECLARE_FUNCTION(execPaintOnMeshAtLocation_Wrapper); \
+	DECLARE_FUNCTION(execGetAllVertexColorsOnly_Wrapper); \
+	DECLARE_FUNCTION(execGetClosestVertexDataOnMesh_Wrapper);
+
+
+#if WITH_EDITOR
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_EDITOR_ONLY_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_GetObjectsOfClassAsSoftPtrs); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_GetObjectNameFromSoftObjectPtr); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_GetSoftObjectPathFromSoftObjectPtr); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_GetObjectsOfClass);
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_EDITOR_ONLY_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_GetObjectsOfClassAsSoftPtrs); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_GetObjectNameFromSoftObjectPtr); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_GetSoftObjectPathFromSoftObjectPtr); \
+	DECLARE_FUNCTION(execVertexPaintDetectionPlugin_GetObjectsOfClass);
+
+
+#else
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_EDITOR_ONLY_RPC_WRAPPERS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_EDITOR_ONLY_RPC_WRAPPERS_NO_PURE_DECLS
+#endif //WITH_EDITOR
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_ACCESSORS
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUVertexPaintFunctionLibrary(); \
+	friend struct Z_Construct_UClass_UVertexPaintFunctionLibrary_Statics; \
+public: \
+	DECLARE_CLASS(UVertexPaintFunctionLibrary, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VertexPaintDetectionPlugin"), NO_API) \
+	DECLARE_SERIALIZER(UVertexPaintFunctionLibrary)
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_INCLASS \
+private: \
+	static void StaticRegisterNativesUVertexPaintFunctionLibrary(); \
+	friend struct Z_Construct_UClass_UVertexPaintFunctionLibrary_Statics; \
+public: \
+	DECLARE_CLASS(UVertexPaintFunctionLibrary, UBlueprintFunctionLibrary, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/VertexPaintDetectionPlugin"), NO_API) \
+	DECLARE_SERIALIZER(UVertexPaintFunctionLibrary)
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVertexPaintFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVertexPaintFunctionLibrary) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVertexPaintFunctionLibrary); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVertexPaintFunctionLibrary); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVertexPaintFunctionLibrary(UVertexPaintFunctionLibrary&&); \
+	NO_API UVertexPaintFunctionLibrary(const UVertexPaintFunctionLibrary&); \
+public: \
+	NO_API virtual ~UVertexPaintFunctionLibrary();
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UVertexPaintFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UVertexPaintFunctionLibrary(UVertexPaintFunctionLibrary&&); \
+	NO_API UVertexPaintFunctionLibrary(const UVertexPaintFunctionLibrary&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UVertexPaintFunctionLibrary); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UVertexPaintFunctionLibrary); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UVertexPaintFunctionLibrary) \
+	NO_API virtual ~UVertexPaintFunctionLibrary();
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_17_PROLOG
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_SPARSE_DATA \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_RPC_WRAPPERS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_EDITOR_ONLY_RPC_WRAPPERS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_INCLASS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_SPARSE_DATA \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_EDITOR_ONLY_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_ACCESSORS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_INCLASS_NO_PURE_DECLS \
+	FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h_20_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> VERTEXPAINTDETECTIONPLUGIN_API UClass* StaticClass<class UVertexPaintFunctionLibrary>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Build_U5M_Marketplace_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintFunctionLibrary_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

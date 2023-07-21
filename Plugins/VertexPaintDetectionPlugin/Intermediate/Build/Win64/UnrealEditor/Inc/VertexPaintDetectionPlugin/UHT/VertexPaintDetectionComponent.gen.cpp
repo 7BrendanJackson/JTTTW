@@ -1,0 +1,948 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "VertexPaintDetectionPlugin/Public/VertexPaintDetectionComponent.h"
+#include "VertexPaintDetectionPlugin/Public/VertexPaintDetectionStructs.h"
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeVertexPaintDetectionComponent() {}
+// Cross Module References
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
+	UPackage* Z_Construct_UPackage__Script_VertexPaintDetectionPlugin();
+	VERTEXPAINTDETECTIONPLUGIN_API UClass* Z_Construct_UClass_UVertexPaintDetectionComponent();
+	VERTEXPAINTDETECTIONPLUGIN_API UClass* Z_Construct_UClass_UVertexPaintDetectionComponent_NoRegister();
+	VERTEXPAINTDETECTIONPLUGIN_API UClass* Z_Construct_UClass_UVertexPaintDetectionGISubSystem_NoRegister();
+	VERTEXPAINTDETECTIONPLUGIN_API UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature();
+	VERTEXPAINTDETECTIONPLUGIN_API UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature();
+	VERTEXPAINTDETECTIONPLUGIN_API UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature();
+	VERTEXPAINTDETECTIONPLUGIN_API UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature();
+	VERTEXPAINTDETECTIONPLUGIN_API UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature();
+	VERTEXPAINTDETECTIONPLUGIN_API UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature();
+	VERTEXPAINTDETECTIONPLUGIN_API UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature();
+	VERTEXPAINTDETECTIONPLUGIN_API UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexDetectAmountOfPaintedColorsOfEachChannel();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexDetectAvarageColorInAreaInfo();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexDetectGetColorsOnlyStruct();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexDetectInfoStruct();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexDetectVertexColorsOnEachBone();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexPaintOnEntireMeshStruct();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexPaintSetMeshComponentVertexColorsUsingSerializedString();
+	VERTEXPAINTDETECTIONPLUGIN_API UScriptStruct* Z_Construct_UScriptStruct_FVertexPaintStruct();
+// End Cross Module References
+	struct Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics
+	{
+		struct _Script_VertexPaintDetectionPlugin_eventVertexColorGetClosestVertexData_Parms
+		{
+			FVertexDetectTaskResultInfo taskResultInfo;
+			FVertexDetectMeshDataStruct meshVertexData;
+			FVertexDetectInfoStruct detectedMeshWithSettings;
+			FVertexDetectClosestVertexDataResultStruct closestVertexInfo;
+			FVertexDetectEstimatedColorAtHitLocationResultStruct estimatedColorAtHitLocationInfo;
+			FVertexDetectAvarageColorInAreaInfo avarageColorInAreaInfo;
+			FVertexDetectAmountOfPaintedColorsOfEachChannel amountOfPaintedColorsOfEachChannel;
+			FVertexDetectVertexColorsOnEachBone vertexColorsOnEachBone;
+			FVertexDetectAdditionalDataToPassThrough additionalData;
+		};
+		static const UECodeGen_Private::FStructPropertyParams NewProp_taskResultInfo;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_meshVertexData;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_detectedMeshWithSettings;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_closestVertexInfo;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_estimatedColorAtHitLocationInfo;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_avarageColorInAreaInfo;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_amountOfPaintedColorsOfEachChannel;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_vertexColorsOnEachBone;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_additionalData;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_taskResultInfo = { "taskResultInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetClosestVertexData_Parms, taskResultInfo), Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo, METADATA_PARAMS(nullptr, 0) }; // 1041766329
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_meshVertexData = { "meshVertexData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetClosestVertexData_Parms, meshVertexData), Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct, METADATA_PARAMS(nullptr, 0) }; // 4242319910
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_detectedMeshWithSettings = { "detectedMeshWithSettings", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetClosestVertexData_Parms, detectedMeshWithSettings), Z_Construct_UScriptStruct_FVertexDetectInfoStruct, METADATA_PARAMS(nullptr, 0) }; // 3860109383
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_closestVertexInfo = { "closestVertexInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetClosestVertexData_Parms, closestVertexInfo), Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct, METADATA_PARAMS(nullptr, 0) }; // 2848308437
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_estimatedColorAtHitLocationInfo = { "estimatedColorAtHitLocationInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetClosestVertexData_Parms, estimatedColorAtHitLocationInfo), Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct, METADATA_PARAMS(nullptr, 0) }; // 389960202
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_avarageColorInAreaInfo = { "avarageColorInAreaInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetClosestVertexData_Parms, avarageColorInAreaInfo), Z_Construct_UScriptStruct_FVertexDetectAvarageColorInAreaInfo, METADATA_PARAMS(nullptr, 0) }; // 1609628195
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel = { "amountOfPaintedColorsOfEachChannel", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetClosestVertexData_Parms, amountOfPaintedColorsOfEachChannel), Z_Construct_UScriptStruct_FVertexDetectAmountOfPaintedColorsOfEachChannel, METADATA_PARAMS(nullptr, 0) }; // 1724626882
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone = { "vertexColorsOnEachBone", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetClosestVertexData_Parms, vertexColorsOnEachBone), Z_Construct_UScriptStruct_FVertexDetectVertexColorsOnEachBone, METADATA_PARAMS(nullptr, 0) }; // 1945807607
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_additionalData = { "additionalData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetClosestVertexData_Parms, additionalData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough, METADATA_PARAMS(nullptr, 0) }; // 2814627034
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_taskResultInfo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_meshVertexData,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_detectedMeshWithSettings,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_closestVertexInfo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_estimatedColorAtHitLocationInfo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_avarageColorInAreaInfo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::NewProp_additionalData,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//-------------------------------------------------------\n" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_VertexPaintDetectionPlugin, nullptr, "VertexColorGetClosestVertexData__DelegateSignature", nullptr, nullptr, sizeof(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::_Script_VertexPaintDetectionPlugin_eventVertexColorGetClosestVertexData_Parms), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics
+	{
+		struct _Script_VertexPaintDetectionPlugin_eventVertexColorGetAllVertexColorsOnly_Parms
+		{
+			FVertexDetectTaskResultInfo taskResultInfo;
+			FVertexDetectMeshDataStruct meshVertexData;
+			FVertexDetectGetColorsOnlyStruct gotAllVertexColorsWithSettings;
+			FVertexDetectAmountOfPaintedColorsOfEachChannel amountOfPaintedColorsOfEachChannel;
+			FVertexDetectVertexColorsOnEachBone vertexColorsOnEachBone;
+			FVertexDetectAdditionalDataToPassThrough additionalData;
+		};
+		static const UECodeGen_Private::FStructPropertyParams NewProp_taskResultInfo;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_meshVertexData;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_gotAllVertexColorsWithSettings;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_amountOfPaintedColorsOfEachChannel;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_vertexColorsOnEachBone;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_additionalData;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::NewProp_taskResultInfo = { "taskResultInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetAllVertexColorsOnly_Parms, taskResultInfo), Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo, METADATA_PARAMS(nullptr, 0) }; // 1041766329
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::NewProp_meshVertexData = { "meshVertexData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetAllVertexColorsOnly_Parms, meshVertexData), Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct, METADATA_PARAMS(nullptr, 0) }; // 4242319910
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::NewProp_gotAllVertexColorsWithSettings = { "gotAllVertexColorsWithSettings", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetAllVertexColorsOnly_Parms, gotAllVertexColorsWithSettings), Z_Construct_UScriptStruct_FVertexDetectGetColorsOnlyStruct, METADATA_PARAMS(nullptr, 0) }; // 2249728958
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel = { "amountOfPaintedColorsOfEachChannel", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetAllVertexColorsOnly_Parms, amountOfPaintedColorsOfEachChannel), Z_Construct_UScriptStruct_FVertexDetectAmountOfPaintedColorsOfEachChannel, METADATA_PARAMS(nullptr, 0) }; // 1724626882
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone = { "vertexColorsOnEachBone", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetAllVertexColorsOnly_Parms, vertexColorsOnEachBone), Z_Construct_UScriptStruct_FVertexDetectVertexColorsOnEachBone, METADATA_PARAMS(nullptr, 0) }; // 1945807607
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::NewProp_additionalData = { "additionalData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorGetAllVertexColorsOnly_Parms, additionalData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough, METADATA_PARAMS(nullptr, 0) }; // 2814627034
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::NewProp_taskResultInfo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::NewProp_meshVertexData,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::NewProp_gotAllVertexColorsWithSettings,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::NewProp_additionalData,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_VertexPaintDetectionPlugin, nullptr, "VertexColorGetAllVertexColorsOnly__DelegateSignature", nullptr, nullptr, sizeof(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::_Script_VertexPaintDetectionPlugin_eventVertexColorGetAllVertexColorsOnly_Parms), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics
+	{
+		struct _Script_VertexPaintDetectionPlugin_eventVertexColorPaintedAtLocation_Parms
+		{
+			FVertexDetectTaskResultInfo taskResultInfo;
+			FVertexDetectMeshDataStruct meshVertexData;
+			FVertexPaintAtLocationStruct meshPaintedWithSettings;
+			FVertexDetectClosestVertexDataResultStruct closestVertexInfoAfterApplyingColor;
+			FVertexDetectEstimatedColorAtHitLocationResultStruct estimatedColorAtHitLocationInfo;
+			FVertexDetectAvarageColorInAreaInfo avarageColorInAreaInfo;
+			FVertexDetectAmountOfPaintedColorsOfEachChannel amountOfPaintedColorsOfEachChannel;
+			FVertexDetectVertexColorsOnEachBone vertexColorsOnEachBone;
+			FVertexDetectAdditionalDataToPassThrough additionalData;
+		};
+		static const UECodeGen_Private::FStructPropertyParams NewProp_taskResultInfo;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_meshVertexData;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_meshPaintedWithSettings;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_closestVertexInfoAfterApplyingColor;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_estimatedColorAtHitLocationInfo;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_avarageColorInAreaInfo;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_amountOfPaintedColorsOfEachChannel;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_vertexColorsOnEachBone;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_additionalData;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_taskResultInfo = { "taskResultInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedAtLocation_Parms, taskResultInfo), Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo, METADATA_PARAMS(nullptr, 0) }; // 1041766329
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_meshVertexData = { "meshVertexData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedAtLocation_Parms, meshVertexData), Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct, METADATA_PARAMS(nullptr, 0) }; // 4242319910
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_meshPaintedWithSettings = { "meshPaintedWithSettings", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedAtLocation_Parms, meshPaintedWithSettings), Z_Construct_UScriptStruct_FVertexPaintAtLocationStruct, METADATA_PARAMS(nullptr, 0) }; // 2458551041
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_closestVertexInfoAfterApplyingColor = { "closestVertexInfoAfterApplyingColor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedAtLocation_Parms, closestVertexInfoAfterApplyingColor), Z_Construct_UScriptStruct_FVertexDetectClosestVertexDataResultStruct, METADATA_PARAMS(nullptr, 0) }; // 2848308437
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_estimatedColorAtHitLocationInfo = { "estimatedColorAtHitLocationInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedAtLocation_Parms, estimatedColorAtHitLocationInfo), Z_Construct_UScriptStruct_FVertexDetectEstimatedColorAtHitLocationResultStruct, METADATA_PARAMS(nullptr, 0) }; // 389960202
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_avarageColorInAreaInfo = { "avarageColorInAreaInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedAtLocation_Parms, avarageColorInAreaInfo), Z_Construct_UScriptStruct_FVertexDetectAvarageColorInAreaInfo, METADATA_PARAMS(nullptr, 0) }; // 1609628195
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel = { "amountOfPaintedColorsOfEachChannel", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedAtLocation_Parms, amountOfPaintedColorsOfEachChannel), Z_Construct_UScriptStruct_FVertexDetectAmountOfPaintedColorsOfEachChannel, METADATA_PARAMS(nullptr, 0) }; // 1724626882
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone = { "vertexColorsOnEachBone", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedAtLocation_Parms, vertexColorsOnEachBone), Z_Construct_UScriptStruct_FVertexDetectVertexColorsOnEachBone, METADATA_PARAMS(nullptr, 0) }; // 1945807607
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_additionalData = { "additionalData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedAtLocation_Parms, additionalData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough, METADATA_PARAMS(nullptr, 0) }; // 2814627034
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_taskResultInfo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_meshVertexData,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_meshPaintedWithSettings,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_closestVertexInfoAfterApplyingColor,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_estimatedColorAtHitLocationInfo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_avarageColorInAreaInfo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::NewProp_additionalData,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_VertexPaintDetectionPlugin, nullptr, "VertexColorPaintedAtLocation__DelegateSignature", nullptr, nullptr, sizeof(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedAtLocation_Parms), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics
+	{
+		struct _Script_VertexPaintDetectionPlugin_eventVertexColorPaintedWithinArea_Parms
+		{
+			FVertexDetectTaskResultInfo taskResultInfo;
+			FVertexDetectMeshDataStruct meshVertexData;
+			FVertexPainthWithinAreaStruct areaWithinMeshPaintedWithSettings;
+			FVertexDetectAmountOfPaintedColorsOfEachChannel amountOfPaintedColorsOfEachChannel;
+			FVertexDetectVertexColorsOnEachBone vertexColorsOnEachBone;
+			FVertexDetectAdditionalDataToPassThrough additionalData;
+		};
+		static const UECodeGen_Private::FStructPropertyParams NewProp_taskResultInfo;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_meshVertexData;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_areaWithinMeshPaintedWithSettings;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_amountOfPaintedColorsOfEachChannel;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_vertexColorsOnEachBone;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_additionalData;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::NewProp_taskResultInfo = { "taskResultInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedWithinArea_Parms, taskResultInfo), Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo, METADATA_PARAMS(nullptr, 0) }; // 1041766329
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::NewProp_meshVertexData = { "meshVertexData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedWithinArea_Parms, meshVertexData), Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct, METADATA_PARAMS(nullptr, 0) }; // 4242319910
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::NewProp_areaWithinMeshPaintedWithSettings = { "areaWithinMeshPaintedWithSettings", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedWithinArea_Parms, areaWithinMeshPaintedWithSettings), Z_Construct_UScriptStruct_FVertexPainthWithinAreaStruct, METADATA_PARAMS(nullptr, 0) }; // 2301722162
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel = { "amountOfPaintedColorsOfEachChannel", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedWithinArea_Parms, amountOfPaintedColorsOfEachChannel), Z_Construct_UScriptStruct_FVertexDetectAmountOfPaintedColorsOfEachChannel, METADATA_PARAMS(nullptr, 0) }; // 1724626882
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone = { "vertexColorsOnEachBone", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedWithinArea_Parms, vertexColorsOnEachBone), Z_Construct_UScriptStruct_FVertexDetectVertexColorsOnEachBone, METADATA_PARAMS(nullptr, 0) }; // 1945807607
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::NewProp_additionalData = { "additionalData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedWithinArea_Parms, additionalData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough, METADATA_PARAMS(nullptr, 0) }; // 2814627034
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::NewProp_taskResultInfo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::NewProp_meshVertexData,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::NewProp_areaWithinMeshPaintedWithSettings,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::NewProp_additionalData,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_VertexPaintDetectionPlugin, nullptr, "VertexColorPaintedWithinArea__DelegateSignature", nullptr, nullptr, sizeof(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedWithinArea_Parms), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics
+	{
+		struct _Script_VertexPaintDetectionPlugin_eventVertexColorPaintedEntireMesh_Parms
+		{
+			FVertexDetectTaskResultInfo taskResultInfo;
+			FVertexDetectMeshDataStruct meshVertexData;
+			FVertexPaintOnEntireMeshStruct entireMeshPaintedWithSettings;
+			FVertexDetectAmountOfPaintedColorsOfEachChannel amountOfPaintedColorsOfEachChannel;
+			FVertexDetectVertexColorsOnEachBone vertexColorsOnEachBone;
+			FVertexDetectAdditionalDataToPassThrough additionalData;
+		};
+		static const UECodeGen_Private::FStructPropertyParams NewProp_taskResultInfo;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_meshVertexData;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_entireMeshPaintedWithSettings;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_amountOfPaintedColorsOfEachChannel;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_vertexColorsOnEachBone;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_additionalData;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::NewProp_taskResultInfo = { "taskResultInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedEntireMesh_Parms, taskResultInfo), Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo, METADATA_PARAMS(nullptr, 0) }; // 1041766329
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::NewProp_meshVertexData = { "meshVertexData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedEntireMesh_Parms, meshVertexData), Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct, METADATA_PARAMS(nullptr, 0) }; // 4242319910
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::NewProp_entireMeshPaintedWithSettings = { "entireMeshPaintedWithSettings", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedEntireMesh_Parms, entireMeshPaintedWithSettings), Z_Construct_UScriptStruct_FVertexPaintOnEntireMeshStruct, METADATA_PARAMS(nullptr, 0) }; // 1058477565
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel = { "amountOfPaintedColorsOfEachChannel", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedEntireMesh_Parms, amountOfPaintedColorsOfEachChannel), Z_Construct_UScriptStruct_FVertexDetectAmountOfPaintedColorsOfEachChannel, METADATA_PARAMS(nullptr, 0) }; // 1724626882
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone = { "vertexColorsOnEachBone", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedEntireMesh_Parms, vertexColorsOnEachBone), Z_Construct_UScriptStruct_FVertexDetectVertexColorsOnEachBone, METADATA_PARAMS(nullptr, 0) }; // 1945807607
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::NewProp_additionalData = { "additionalData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedEntireMesh_Parms, additionalData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough, METADATA_PARAMS(nullptr, 0) }; // 2814627034
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::NewProp_taskResultInfo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::NewProp_meshVertexData,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::NewProp_entireMeshPaintedWithSettings,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::NewProp_additionalData,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_VertexPaintDetectionPlugin, nullptr, "VertexColorPaintedEntireMesh__DelegateSignature", nullptr, nullptr, sizeof(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::_Script_VertexPaintDetectionPlugin_eventVertexColorPaintedEntireMesh_Parms), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics
+	{
+		struct _Script_VertexPaintDetectionPlugin_eventVertexColorPaintColorSnippet_Parms
+		{
+			FVertexDetectTaskResultInfo taskResultInfo;
+			FVertexDetectMeshDataStruct meshVertexData;
+			FVertexPaintColorSnippetStruct paintColorSnippetWithSettings;
+			FVertexDetectAmountOfPaintedColorsOfEachChannel amountOfPaintedColorsOfEachChannel;
+			FVertexDetectVertexColorsOnEachBone vertexColorsOnEachBone;
+			FVertexDetectAdditionalDataToPassThrough additionalData;
+		};
+		static const UECodeGen_Private::FStructPropertyParams NewProp_taskResultInfo;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_meshVertexData;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_paintColorSnippetWithSettings;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_amountOfPaintedColorsOfEachChannel;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_vertexColorsOnEachBone;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_additionalData;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::NewProp_taskResultInfo = { "taskResultInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintColorSnippet_Parms, taskResultInfo), Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo, METADATA_PARAMS(nullptr, 0) }; // 1041766329
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::NewProp_meshVertexData = { "meshVertexData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintColorSnippet_Parms, meshVertexData), Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct, METADATA_PARAMS(nullptr, 0) }; // 4242319910
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::NewProp_paintColorSnippetWithSettings = { "paintColorSnippetWithSettings", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintColorSnippet_Parms, paintColorSnippetWithSettings), Z_Construct_UScriptStruct_FVertexPaintColorSnippetStruct, METADATA_PARAMS(nullptr, 0) }; // 3217547297
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel = { "amountOfPaintedColorsOfEachChannel", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintColorSnippet_Parms, amountOfPaintedColorsOfEachChannel), Z_Construct_UScriptStruct_FVertexDetectAmountOfPaintedColorsOfEachChannel, METADATA_PARAMS(nullptr, 0) }; // 1724626882
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone = { "vertexColorsOnEachBone", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintColorSnippet_Parms, vertexColorsOnEachBone), Z_Construct_UScriptStruct_FVertexDetectVertexColorsOnEachBone, METADATA_PARAMS(nullptr, 0) }; // 1945807607
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::NewProp_additionalData = { "additionalData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventVertexColorPaintColorSnippet_Parms, additionalData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough, METADATA_PARAMS(nullptr, 0) }; // 2814627034
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::NewProp_taskResultInfo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::NewProp_meshVertexData,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::NewProp_paintColorSnippetWithSettings,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::NewProp_additionalData,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_VertexPaintDetectionPlugin, nullptr, "VertexColorPaintColorSnippet__DelegateSignature", nullptr, nullptr, sizeof(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::_Script_VertexPaintDetectionPlugin_eventVertexColorPaintColorSnippet_Parms), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics
+	{
+		struct _Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColors_Parms
+		{
+			FVertexDetectTaskResultInfo taskResultInfo;
+			FVertexDetectMeshDataStruct meshVertexData;
+			FVertexPaintStruct setMeshComponentVertexColorSettings;
+			FVertexDetectAmountOfPaintedColorsOfEachChannel amountOfPaintedColorsOfEachChannel;
+			FVertexDetectVertexColorsOnEachBone vertexColorsOnEachBone;
+			FVertexDetectAdditionalDataToPassThrough additionalData;
+		};
+		static const UECodeGen_Private::FStructPropertyParams NewProp_taskResultInfo;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_meshVertexData;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_setMeshComponentVertexColorSettings;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_amountOfPaintedColorsOfEachChannel;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_vertexColorsOnEachBone;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_additionalData;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::NewProp_taskResultInfo = { "taskResultInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColors_Parms, taskResultInfo), Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo, METADATA_PARAMS(nullptr, 0) }; // 1041766329
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::NewProp_meshVertexData = { "meshVertexData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColors_Parms, meshVertexData), Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct, METADATA_PARAMS(nullptr, 0) }; // 4242319910
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::NewProp_setMeshComponentVertexColorSettings = { "setMeshComponentVertexColorSettings", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColors_Parms, setMeshComponentVertexColorSettings), Z_Construct_UScriptStruct_FVertexPaintStruct, METADATA_PARAMS(nullptr, 0) }; // 2970346567
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel = { "amountOfPaintedColorsOfEachChannel", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColors_Parms, amountOfPaintedColorsOfEachChannel), Z_Construct_UScriptStruct_FVertexDetectAmountOfPaintedColorsOfEachChannel, METADATA_PARAMS(nullptr, 0) }; // 1724626882
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone = { "vertexColorsOnEachBone", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColors_Parms, vertexColorsOnEachBone), Z_Construct_UScriptStruct_FVertexDetectVertexColorsOnEachBone, METADATA_PARAMS(nullptr, 0) }; // 1945807607
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::NewProp_additionalData = { "additionalData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColors_Parms, additionalData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough, METADATA_PARAMS(nullptr, 0) }; // 2814627034
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::NewProp_taskResultInfo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::NewProp_meshVertexData,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::NewProp_setMeshComponentVertexColorSettings,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::NewProp_additionalData,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_VertexPaintDetectionPlugin, nullptr, "SetMeshComponentVertexColors__DelegateSignature", nullptr, nullptr, sizeof(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::_Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColors_Parms), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics
+	{
+		struct _Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColorsUsingSerializedString_Parms
+		{
+			FVertexDetectTaskResultInfo taskResultInfo;
+			FVertexDetectMeshDataStruct meshVertexData;
+			FVertexPaintSetMeshComponentVertexColorsUsingSerializedString setMeshComponentVertexColorUsingSerializedStringSettings;
+			FVertexDetectAmountOfPaintedColorsOfEachChannel amountOfPaintedColorsOfEachChannel;
+			FVertexDetectVertexColorsOnEachBone vertexColorsOnEachBone;
+			FVertexDetectAdditionalDataToPassThrough additionalData;
+		};
+		static const UECodeGen_Private::FStructPropertyParams NewProp_taskResultInfo;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_meshVertexData;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_setMeshComponentVertexColorUsingSerializedStringSettings;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_amountOfPaintedColorsOfEachChannel;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_vertexColorsOnEachBone;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_additionalData;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::NewProp_taskResultInfo = { "taskResultInfo", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColorsUsingSerializedString_Parms, taskResultInfo), Z_Construct_UScriptStruct_FVertexDetectTaskResultInfo, METADATA_PARAMS(nullptr, 0) }; // 1041766329
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::NewProp_meshVertexData = { "meshVertexData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColorsUsingSerializedString_Parms, meshVertexData), Z_Construct_UScriptStruct_FVertexDetectMeshDataStruct, METADATA_PARAMS(nullptr, 0) }; // 4242319910
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::NewProp_setMeshComponentVertexColorUsingSerializedStringSettings = { "setMeshComponentVertexColorUsingSerializedStringSettings", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColorsUsingSerializedString_Parms, setMeshComponentVertexColorUsingSerializedStringSettings), Z_Construct_UScriptStruct_FVertexPaintSetMeshComponentVertexColorsUsingSerializedString, METADATA_PARAMS(nullptr, 0) }; // 3645531924
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel = { "amountOfPaintedColorsOfEachChannel", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColorsUsingSerializedString_Parms, amountOfPaintedColorsOfEachChannel), Z_Construct_UScriptStruct_FVertexDetectAmountOfPaintedColorsOfEachChannel, METADATA_PARAMS(nullptr, 0) }; // 1724626882
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone = { "vertexColorsOnEachBone", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColorsUsingSerializedString_Parms, vertexColorsOnEachBone), Z_Construct_UScriptStruct_FVertexDetectVertexColorsOnEachBone, METADATA_PARAMS(nullptr, 0) }; // 1945807607
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::NewProp_additionalData = { "additionalData", nullptr, (EPropertyFlags)0x0010008000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColorsUsingSerializedString_Parms, additionalData), Z_Construct_UScriptStruct_FVertexDetectAdditionalDataToPassThrough, METADATA_PARAMS(nullptr, 0) }; // 2814627034
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::NewProp_taskResultInfo,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::NewProp_meshVertexData,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::NewProp_setMeshComponentVertexColorUsingSerializedStringSettings,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::NewProp_amountOfPaintedColorsOfEachChannel,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::NewProp_vertexColorsOnEachBone,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::NewProp_additionalData,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_VertexPaintDetectionPlugin, nullptr, "SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature", nullptr, nullptr, sizeof(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::_Script_VertexPaintDetectionPlugin_eventSetMeshComponentVertexColorsUsingSerializedString_Parms), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	void UVertexPaintDetectionComponent::StaticRegisterNativesUVertexPaintDetectionComponent()
+	{
+	}
+	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UVertexPaintDetectionComponent);
+	UClass* Z_Construct_UClass_UVertexPaintDetectionComponent_NoRegister()
+	{
+		return UVertexPaintDetectionComponent::StaticClass();
+	}
+	struct Z_Construct_UClass_UVertexPaintDetectionComponent_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_getClosestVertexDataDelegate_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_getClosestVertexDataDelegate;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_getAllVertexColorsOnlyDelegate_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_getAllVertexColorsOnlyDelegate;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_vertexColorsPaintedAtLocationDelegate_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_vertexColorsPaintedAtLocationDelegate;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_vertexColorsPaintedMeshWithinAreaDelegate_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_vertexColorsPaintedMeshWithinAreaDelegate;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_vertexColorsPaintedEntireMeshDelegate_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_vertexColorsPaintedEntireMeshDelegate;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_vertexColorsPaintColorSnippetDelegate_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_vertexColorsPaintColorSnippetDelegate;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_vertexColorsSetMeshColorsDelegate_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_vertexColorsSetMeshColorsDelegate;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_vertexColorsSetMeshColorsUsingSerializedStringDelegate_MetaData[];
+#endif
+		static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_vertexColorsSetMeshColorsUsingSerializedStringDelegate;
+		static const UECodeGen_Private::FSoftObjectPropertyParams NewProp_canOnlyApplyPaintOnTheseActors_Inner;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_canOnlyApplyPaintOnTheseActors_MetaData[];
+#endif
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_canOnlyApplyPaintOnTheseActors;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_printLogsToScreen_MetaData[];
+#endif
+		static void NewProp_printLogsToScreen_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_printLogsToScreen;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_printLogsToScreen_Duration_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_printLogsToScreen_Duration;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_printLogsToOutputLog_MetaData[];
+#endif
+		static void NewProp_printLogsToOutputLog_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_printLogsToOutputLog;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_atGameThread_drawVertexPositionDebugPoint_MetaData[];
+#endif
+		static void NewProp_atGameThread_drawVertexPositionDebugPoint_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_atGameThread_drawVertexPositionDebugPoint;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_atGameThread_drawVertexNormalDebugArrow_MetaData[];
+#endif
+		static void NewProp_atGameThread_drawVertexNormalDebugArrow_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_atGameThread_drawVertexNormalDebugArrow;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_atGameThread_drawVertexPositionDebugPointOnVertexThatGotPaintApplied_MetaData[];
+#endif
+		static void NewProp_atGameThread_drawVertexPositionDebugPointOnVertexThatGotPaintApplied_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_atGameThread_drawVertexPositionDebugPointOnVertexThatGotPaintApplied;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_atGameThread_drawClothVertexPositionDebugPoint_MetaData[];
+#endif
+		static void NewProp_atGameThread_drawClothVertexPositionDebugPoint_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_atGameThread_drawClothVertexPositionDebugPoint;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_atGameThread_DrawVertexPointsDuration_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_atGameThread_DrawVertexPointsDuration;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_atGameThread_DrawPaintConditionsDebugSymbols_MetaData[];
+#endif
+		static void NewProp_atGameThread_DrawPaintConditionsDebugSymbols_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_atGameThread_DrawPaintConditionsDebugSymbols;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_atGameThread_DrawPaintConditionsDebugSymbolsDuration_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_atGameThread_DrawPaintConditionsDebugSymbolsDuration;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_drawGetClosestVertexDataDebugSymbols_MetaData[];
+#endif
+		static void NewProp_drawGetClosestVertexDataDebugSymbols_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_drawGetClosestVertexDataDebugSymbols;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_drawGetClosestVertexDataDebugSymbolsDuration_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_drawGetClosestVertexDataDebugSymbolsDuration;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_drawGetEstimatedColorAtHitLocationDebugSymbols_MetaData[];
+#endif
+		static void NewProp_drawGetEstimatedColorAtHitLocationDebugSymbols_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_drawGetEstimatedColorAtHitLocationDebugSymbols;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_drawGetEstimatedColorAtHitLocationDebugSymbolsDuration_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_drawGetEstimatedColorAtHitLocationDebugSymbolsDuration;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_drawPaintWithinAreaDebugSymbols_MetaData[];
+#endif
+		static void NewProp_drawPaintWithinAreaDebugSymbols_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_drawPaintWithinAreaDebugSymbols;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_drawPaintWithinAreaDebugSymbolsDuration_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_drawPaintWithinAreaDebugSymbolsDuration;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_vertexPaintGameInstanceSubsystem_Global_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_vertexPaintGameInstanceSubsystem_Global;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UECodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_UActorComponent,
+		(UObject* (*)())Z_Construct_UPackage__Script_VertexPaintDetectionPlugin,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "ClassGroupNames", "Custom" },
+		{ "Comment", "// NOTE Not blueprint spawnable so only the Blueprint Component that inherits from this can be added to BPs in case we add something on that layer\n" },
+		{ "IncludePath", "VertexPaintDetectionComponent.h" },
+		{ "IsBlueprintBase", "true" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "NOTE Not blueprint spawnable so only the Blueprint Component that inherits from this can be added to BPs in case we add something on that layer" },
+	};
+#endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_getClosestVertexDataDelegate_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Detection" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Broadcasts when Finished Getting Vertex Data, either successfully or unsuccessfully." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_getClosestVertexDataDelegate = { "getClosestVertexDataDelegate", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, getClosestVertexDataDelegate), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetClosestVertexData__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_getClosestVertexDataDelegate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_getClosestVertexDataDelegate_MetaData)) }; // 3949116113
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_getAllVertexColorsOnlyDelegate_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Detection" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Broadcasts when Finished Getting All Vertex Colors Only, either successfully or unsuccessfully." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_getAllVertexColorsOnlyDelegate = { "getAllVertexColorsOnlyDelegate", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, getAllVertexColorsOnlyDelegate), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorGetAllVertexColorsOnly__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_getAllVertexColorsOnlyDelegate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_getAllVertexColorsOnlyDelegate_MetaData)) }; // 3454732310
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedAtLocationDelegate_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Painting" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Broadcasts when Finished Painting Vertex Colors, either successfully or unsuccessfully." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedAtLocationDelegate = { "vertexColorsPaintedAtLocationDelegate", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, vertexColorsPaintedAtLocationDelegate), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedAtLocation__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedAtLocationDelegate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedAtLocationDelegate_MetaData)) }; // 96060356
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedMeshWithinAreaDelegate_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Painting" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Broadcasts when Finished Painting Vertex Colors on Mesh within Area, either successfully or unsuccessfully." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedMeshWithinAreaDelegate = { "vertexColorsPaintedMeshWithinAreaDelegate", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, vertexColorsPaintedMeshWithinAreaDelegate), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedWithinArea__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedMeshWithinAreaDelegate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedMeshWithinAreaDelegate_MetaData)) }; // 1097090739
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedEntireMeshDelegate_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Painting" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Broadcasts when Finished Painting Vertex Colors on Entire Mesh, either successfully or unsuccessfully." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedEntireMeshDelegate = { "vertexColorsPaintedEntireMeshDelegate", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, vertexColorsPaintedEntireMeshDelegate), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintedEntireMesh__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedEntireMeshDelegate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedEntireMeshDelegate_MetaData)) }; // 2005749532
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintColorSnippetDelegate_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Painting" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Broadcasts when Finished Paint Color Snippet, either successfully or unsuccessfully." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintColorSnippetDelegate = { "vertexColorsPaintColorSnippetDelegate", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, vertexColorsPaintColorSnippetDelegate), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_VertexColorPaintColorSnippet__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintColorSnippetDelegate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintColorSnippetDelegate_MetaData)) }; // 1057015721
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsSetMeshColorsDelegate_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Painting" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Broadcasts when VertexPaintDetectionGISubSystem has run it's SetMeshComponentVertexColors IF you provided a component. Useful if you're loading vertex data and want to start each task when the previous is finished." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsSetMeshColorsDelegate = { "vertexColorsSetMeshColorsDelegate", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, vertexColorsSetMeshColorsDelegate), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColors__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsSetMeshColorsDelegate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsSetMeshColorsDelegate_MetaData)) }; // 3148962910
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsSetMeshColorsUsingSerializedStringDelegate_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Painting" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Broadcasts when VertexPaintDetectionGISubSystem has run it's SetMeshComponentVertexColorsUsingSerializedString IF you provided a component. Useful if you're loading vertex data and want to start each task when the previous is finished." },
+	};
+#endif
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsSetMeshColorsUsingSerializedStringDelegate = { "vertexColorsSetMeshColorsUsingSerializedStringDelegate", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, vertexColorsSetMeshColorsUsingSerializedStringDelegate), Z_Construct_UDelegateFunction_VertexPaintDetectionPlugin_SetMeshComponentVertexColorsUsingSerializedString__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsSetMeshColorsUsingSerializedStringDelegate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsSetMeshColorsUsingSerializedStringDelegate_MetaData)) }; // 603917290
+	const UECodeGen_Private::FSoftObjectPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_canOnlyApplyPaintOnTheseActors_Inner = { "canOnlyApplyPaintOnTheseActors", nullptr, (EPropertyFlags)0x0004000000000000, UECodeGen_Private::EPropertyGenFlags::SoftObject, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_canOnlyApplyPaintOnTheseActors_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Painting" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "If you only want this component to be able to paint on certain actors then add them here. \nUseful if you for instance have a faucet that drips and paints out puddles of water etc. with sphere traces but doesn't want the player to get painted as well if they walk into the sphere but only the floor." },
+	};
+#endif
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_canOnlyApplyPaintOnTheseActors = { "canOnlyApplyPaintOnTheseActors", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, canOnlyApplyPaintOnTheseActors), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_canOnlyApplyPaintOnTheseActors_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_canOnlyApplyPaintOnTheseActors_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToScreen_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Logs" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "If should print logs to screen." },
+	};
+#endif
+	void Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToScreen_SetBit(void* Obj)
+	{
+		((UVertexPaintDetectionComponent*)Obj)->printLogsToScreen = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToScreen = { "printLogsToScreen", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UVertexPaintDetectionComponent), &Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToScreen_SetBit, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToScreen_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToScreen_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToScreen_Duration_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Logs" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Duration of the Print Strings on the Screen" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToScreen_Duration = { "printLogsToScreen_Duration", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, printLogsToScreen_Duration), METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToScreen_Duration_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToScreen_Duration_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToOutputLog_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Logs" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "If should print logs to output log." },
+	};
+#endif
+	void Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToOutputLog_SetBit(void* Obj)
+	{
+		((UVertexPaintDetectionComponent*)Obj)->printLogsToOutputLog = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToOutputLog = { "printLogsToOutputLog", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UVertexPaintDetectionComponent), &Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToOutputLog_SetBit, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToOutputLog_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToOutputLog_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexPositionDebugPoint_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Vertex Symbols" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Draws a Debug Point for Each Vertex of the Mesh. \nNOTE! Only possible if running the Paint Job with Multithreading set to False, and can be quite expensive if the Mesh has a lot of Vertices" },
+	};
+#endif
+	void Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexPositionDebugPoint_SetBit(void* Obj)
+	{
+		((UVertexPaintDetectionComponent*)Obj)->atGameThread_drawVertexPositionDebugPoint = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexPositionDebugPoint = { "atGameThread_drawVertexPositionDebugPoint", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UVertexPaintDetectionComponent), &Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexPositionDebugPoint_SetBit, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexPositionDebugPoint_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexPositionDebugPoint_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexNormalDebugArrow_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Vertex Symbols" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Draws a Debug Arrow for each Vertex Normal. \nNOTE! Only possible if running the Paint Job with Multithreading set to False, and can be quite expensive if the Cloth has a lot of Vertices" },
+	};
+#endif
+	void Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexNormalDebugArrow_SetBit(void* Obj)
+	{
+		((UVertexPaintDetectionComponent*)Obj)->atGameThread_drawVertexNormalDebugArrow = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexNormalDebugArrow = { "atGameThread_drawVertexNormalDebugArrow", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UVertexPaintDetectionComponent), &Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexNormalDebugArrow_SetBit, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexNormalDebugArrow_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexNormalDebugArrow_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexPositionDebugPointOnVertexThatGotPaintApplied_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Vertex Symbols" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Draws a Debug Point for the Vertex of the Mesh that was within range and got paint applied. \nNOTE! Only possible if running the Paint Job with Multithreading set to False, and can be quite expensive if the Mesh has a lot of Vertices" },
+	};
+#endif
+	void Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexPositionDebugPointOnVertexThatGotPaintApplied_SetBit(void* Obj)
+	{
+		((UVertexPaintDetectionComponent*)Obj)->atGameThread_drawVertexPositionDebugPointOnVertexThatGotPaintApplied = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexPositionDebugPointOnVertexThatGotPaintApplied = { "atGameThread_drawVertexPositionDebugPointOnVertexThatGotPaintApplied", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UVertexPaintDetectionComponent), &Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexPositionDebugPointOnVertexThatGotPaintApplied_SetBit, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexPositionDebugPointOnVertexThatGotPaintApplied_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexPositionDebugPointOnVertexThatGotPaintApplied_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawClothVertexPositionDebugPoint_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Vertex Symbols" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Draws a Debug Point for Each Vertex of Cloths of the Mesh we're looping through, not just the ones that are getting painted. \nNOTE! Only possible if running the Paint Job with Multithreading set to False, and can be quite expensive if the Cloth has a lot of Vertices" },
+	};
+#endif
+	void Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawClothVertexPositionDebugPoint_SetBit(void* Obj)
+	{
+		((UVertexPaintDetectionComponent*)Obj)->atGameThread_drawClothVertexPositionDebugPoint = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawClothVertexPositionDebugPoint = { "atGameThread_drawClothVertexPositionDebugPoint", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UVertexPaintDetectionComponent), &Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawClothVertexPositionDebugPoint_SetBit, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawClothVertexPositionDebugPoint_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawClothVertexPositionDebugPoint_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawVertexPointsDuration_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Vertex Symbols" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Duration of the Drawn Vertex. Can be very low if you're painting every frame." },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawVertexPointsDuration = { "atGameThread_DrawVertexPointsDuration", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, atGameThread_DrawVertexPointsDuration), METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawVertexPointsDuration_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawVertexPointsDuration_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawPaintConditionsDebugSymbols_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Paint Condition Symbols" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "This will for instance Draw the Trace Line if using Condition where Vertex has to have Line of Sight to an Actor / Position to get painted." },
+	};
+#endif
+	void Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawPaintConditionsDebugSymbols_SetBit(void* Obj)
+	{
+		((UVertexPaintDetectionComponent*)Obj)->atGameThread_DrawPaintConditionsDebugSymbols = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawPaintConditionsDebugSymbols = { "atGameThread_DrawPaintConditionsDebugSymbols", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UVertexPaintDetectionComponent), &Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawPaintConditionsDebugSymbols_SetBit, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawPaintConditionsDebugSymbols_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawPaintConditionsDebugSymbols_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawPaintConditionsDebugSymbolsDuration_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Paint Condition Symbols" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "This will for instance Draw the Trace Line if using Condition where Vertex has to have Line of Sight to an Actor / Position to get painted." },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawPaintConditionsDebugSymbolsDuration = { "atGameThread_DrawPaintConditionsDebugSymbolsDuration", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, atGameThread_DrawPaintConditionsDebugSymbolsDuration), METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawPaintConditionsDebugSymbolsDuration_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawPaintConditionsDebugSymbolsDuration_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetClosestVertexDataDebugSymbols_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Get Closest Vertex Data Symbols" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "Draws a Debug Box of Closest Vertex and an Arrow of its Normal" },
+	};
+#endif
+	void Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetClosestVertexDataDebugSymbols_SetBit(void* Obj)
+	{
+		((UVertexPaintDetectionComponent*)Obj)->drawGetClosestVertexDataDebugSymbols = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetClosestVertexDataDebugSymbols = { "drawGetClosestVertexDataDebugSymbols", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UVertexPaintDetectionComponent), &Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetClosestVertexDataDebugSymbols_SetBit, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetClosestVertexDataDebugSymbols_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetClosestVertexDataDebugSymbols_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetClosestVertexDataDebugSymbolsDuration_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Get Closest Vertex Data Symbols" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetClosestVertexDataDebugSymbolsDuration = { "drawGetClosestVertexDataDebugSymbolsDuration", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, drawGetClosestVertexDataDebugSymbolsDuration), METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetClosestVertexDataDebugSymbolsDuration_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetClosestVertexDataDebugSymbolsDuration_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetEstimatedColorAtHitLocationDebugSymbols_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Get Estimated Color At Hit Location Symbols" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "This will Draw Debug Symbols related to getting the Vertex Data at the Hit Location, such as the nearby vertices of the closest vertex, which vertex that got choosen when we want to find the color between the closest vertex and the one toward the direction from the closest to the hit location, since we scale between them. Also arrows that indicate the direction." },
+	};
+#endif
+	void Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetEstimatedColorAtHitLocationDebugSymbols_SetBit(void* Obj)
+	{
+		((UVertexPaintDetectionComponent*)Obj)->drawGetEstimatedColorAtHitLocationDebugSymbols = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetEstimatedColorAtHitLocationDebugSymbols = { "drawGetEstimatedColorAtHitLocationDebugSymbols", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UVertexPaintDetectionComponent), &Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetEstimatedColorAtHitLocationDebugSymbols_SetBit, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetEstimatedColorAtHitLocationDebugSymbols_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetEstimatedColorAtHitLocationDebugSymbols_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetEstimatedColorAtHitLocationDebugSymbolsDuration_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Get Estimated Color At Hit Location Symbols" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetEstimatedColorAtHitLocationDebugSymbolsDuration = { "drawGetEstimatedColorAtHitLocationDebugSymbolsDuration", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, drawGetEstimatedColorAtHitLocationDebugSymbolsDuration), METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetEstimatedColorAtHitLocationDebugSymbolsDuration_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetEstimatedColorAtHitLocationDebugSymbolsDuration_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawPaintWithinAreaDebugSymbols_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Paint Within Area Symbols" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+		{ "ToolTip", "This will Draw the Bounds that we use when running Paint Within Area." },
+	};
+#endif
+	void Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawPaintWithinAreaDebugSymbols_SetBit(void* Obj)
+	{
+		((UVertexPaintDetectionComponent*)Obj)->drawPaintWithinAreaDebugSymbols = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawPaintWithinAreaDebugSymbols = { "drawPaintWithinAreaDebugSymbols", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(UVertexPaintDetectionComponent), &Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawPaintWithinAreaDebugSymbols_SetBit, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawPaintWithinAreaDebugSymbols_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawPaintWithinAreaDebugSymbols_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawPaintWithinAreaDebugSymbolsDuration_MetaData[] = {
+		{ "Category", "Runtime Vertex Color Paint and Detection Plugin|Debug Settings|Paint Within Area Symbols" },
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawPaintWithinAreaDebugSymbolsDuration = { "drawPaintWithinAreaDebugSymbolsDuration", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, drawPaintWithinAreaDebugSymbolsDuration), METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawPaintWithinAreaDebugSymbolsDuration_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawPaintWithinAreaDebugSymbolsDuration_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexPaintGameInstanceSubsystem_Global_MetaData[] = {
+		{ "ModuleRelativePath", "Public/VertexPaintDetectionComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexPaintGameInstanceSubsystem_Global = { "vertexPaintGameInstanceSubsystem_Global", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UVertexPaintDetectionComponent, vertexPaintGameInstanceSubsystem_Global), Z_Construct_UClass_UVertexPaintDetectionGISubSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexPaintGameInstanceSubsystem_Global_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexPaintGameInstanceSubsystem_Global_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_getClosestVertexDataDelegate,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_getAllVertexColorsOnlyDelegate,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedAtLocationDelegate,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedMeshWithinAreaDelegate,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintedEntireMeshDelegate,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsPaintColorSnippetDelegate,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsSetMeshColorsDelegate,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexColorsSetMeshColorsUsingSerializedStringDelegate,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_canOnlyApplyPaintOnTheseActors_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_canOnlyApplyPaintOnTheseActors,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToScreen,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToScreen_Duration,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_printLogsToOutputLog,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexPositionDebugPoint,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexNormalDebugArrow,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawVertexPositionDebugPointOnVertexThatGotPaintApplied,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_drawClothVertexPositionDebugPoint,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawVertexPointsDuration,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawPaintConditionsDebugSymbols,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_atGameThread_DrawPaintConditionsDebugSymbolsDuration,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetClosestVertexDataDebugSymbols,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetClosestVertexDataDebugSymbolsDuration,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetEstimatedColorAtHitLocationDebugSymbols,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawGetEstimatedColorAtHitLocationDebugSymbolsDuration,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawPaintWithinAreaDebugSymbols,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_drawPaintWithinAreaDebugSymbolsDuration,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::NewProp_vertexPaintGameInstanceSubsystem_Global,
+	};
+	const FCppClassTypeInfoStatic Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<UVertexPaintDetectionComponent>::IsAbstract,
+	};
+	const UECodeGen_Private::FClassParams Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::ClassParams = {
+		&UVertexPaintDetectionComponent::StaticClass,
+		"Engine",
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		nullptr,
+		Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::PropPointers,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::PropPointers),
+		0,
+		0x00B000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_UVertexPaintDetectionComponent()
+	{
+		if (!Z_Registration_Info_UClass_UVertexPaintDetectionComponent.OuterSingleton)
+		{
+			UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UVertexPaintDetectionComponent.OuterSingleton, Z_Construct_UClass_UVertexPaintDetectionComponent_Statics::ClassParams);
+		}
+		return Z_Registration_Info_UClass_UVertexPaintDetectionComponent.OuterSingleton;
+	}
+	template<> VERTEXPAINTDETECTIONPLUGIN_API UClass* StaticClass<UVertexPaintDetectionComponent>()
+	{
+		return UVertexPaintDetectionComponent::StaticClass();
+	}
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UVertexPaintDetectionComponent);
+	struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionComponent_h_Statics
+	{
+		static const FClassRegisterCompiledInInfo ClassInfo[];
+	};
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UVertexPaintDetectionComponent, UVertexPaintDetectionComponent::StaticClass, TEXT("UVertexPaintDetectionComponent"), &Z_Registration_Info_UClass_UVertexPaintDetectionComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UVertexPaintDetectionComponent), 3164610570U) },
+	};
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionComponent_h_3283785856(TEXT("/Script/VertexPaintDetectionPlugin"),
+		Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_VertexPaintDetectionPlugin_Source_VertexPaintDetectionPlugin_Public_VertexPaintDetectionComponent_h_Statics::ClassInfo),
+		nullptr, 0,
+		nullptr, 0);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
